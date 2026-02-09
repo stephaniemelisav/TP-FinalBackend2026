@@ -1,0 +1,5 @@
+# Entornos virtuales
+env05/
+
+# Archivos de Python
+__pycache__/
