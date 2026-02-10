@@ -45,6 +45,7 @@ THIRD_PARTY_APPS =[
 
 LOCAL_APPS = [
     'apps.usuario',
+    'apps.etiqueta',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
