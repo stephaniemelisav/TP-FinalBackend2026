@@ -46,7 +46,7 @@ THIRD_PARTY_APPS =[
 LOCAL_APPS = [
     'apps.usuario',
     'apps.etiqueta',
-    'apps.etiqueta',
+    'apps.comentario',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
@@ -110,6 +110,8 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+# Se apunta al modelo Usuario de la app usuario en lugar de User
+AUTH_USER_MODEL = 'usuario.Usuario'
 
 # Internationalization
 # https://docs.djangoproject.com/en/6.0/topics/i18n/
